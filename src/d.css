@@ -1,0 +1,104 @@
+
+#mHome {
+    line-height: 70px;
+    background-color: blanchedalmond;
+    border : 3px solid black;
+    border-radius: 15px;
+}
+body{
+    background-color: rgb(190, 186, 149);
+}
+#first{
+    line-height: 50px;  
+
+}
+#navLinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+   border: 3px solid black;
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+}
+
+#Mp{
+    border: 3px solid black;
+    display: grid;
+    font-size: 40px;
+    background-color: rgb(190, 186, 149); 
+    text-align:center;
+}
+p{
+    font-size: 20px;
+    color: rgb(2, 43, 4)
+}
+
+h1{
+    font-size: 50px;
+   text-align: center; 
+   color: red;
+   text-decoration:underline ;
+}
+h2{
+     color: rgb(162, 4, 4);
+      text-decoration: underline;
+}
+li{
+    font-size: 23px;
+    color: rgb(75, 3, 43);
+    text-decoration: wavy underline;
+}
+
+h4{
+    text-align: center;
+    color: rgb(94, 2, 2);
+    font-size: 20px;
+}
+h5{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+#Cno{
+    font-size: 22px;
+    color: rgb(39, 43, 154);
+}
+
+img{
+    width: 150px;
+    height: 200px;
+    border : 3px solid black;
+    border-radius: 15px;
+}
+span{
+    border: 3px solid black;
+    border-radius:10px;
+    padding : 5px;
+    font-size: 18px;
+    background-color: rgb(39, 117, 132);
+    color: rgba(224, 226, 237, 0.73);
+    margin: 5px;
+    /* width: 50%; */
+ 
+}
+a{
+    text-decoration:none;
+    color:blue;
+}
+
+.about {
+    border: 3px solid black;
+    display:grid;
+    border-radius:10px;
+
+}
+#myInfo{
+    margin-left: 10px;
+    margin-top: -20px;
+}
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;                      
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        fieldset {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        div{
+            text-align: right;
+            border-radius: 10px;
+        }
+    </style>
+    <title>contect for</title>
+</head>
+<body>
+   <h1 style="text-align: center; text-decoration: underline;">Contact me</h1>
+    <fieldset>
+        <legend style="font-size: 20px;">Please fill the all information about yourself</legend>
+        Name:
+        <input type="text" name="name" size="15" maxlenght="30"placeholder="enter your name"><br><br>
+        Email:
+        <input type="email" name="email Id" size="15" maxlenght="30"placeholder="enter your email id"><br><br>
+        Contact Number:
+        <input type="number" name="phone number" size="15" maxlenght="30"placeholder="enter your contact number"><br><br>
+        <label for="subject">Subject:</label>
+            <select id="subject" name="subject" required>
+                <option value="">Select a subject</option>
+                <option value="job-opportunity">Job Opportunity</option>
+                <option value="freelance-work">Freelance Work</option>
+                <option value="collaboration">Collaboration</option>
+                <option value="site-project">Website / Site Project</option>
+                <option value="video-editing">Video Editing</option>
+                <option value="questions">Questions</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+            </select>
+            Message:
+            <br>
+         <textarea name="message" placeholder="Write a message" rows="5" cols="30" maxlength="60"></textarea>
+         <br>
+         <div>
+            <button type="submit">Send Your Message</button>
+         </div>
+        </fieldset>
+        <span> <a href="home.html" style="color: ( blueviolet); font-size: 30px;">go to home page:</a> </span>
+
+</body>
+</html>
